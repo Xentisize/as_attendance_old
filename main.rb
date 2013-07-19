@@ -34,6 +34,14 @@ class AsAttendance < Sinatra::Base
     set :password, "all04round"
   end
 
+  configure :production do
+    register Sinatra::ActiveRecordExtension
+    register Sinatra::Flash
+    ActiveRecord::Base.establish_connection(ENV["DATABASE_URL"])
+    set :username, "as"
+    set :password, "all04round"
+  end
+
   ### Admin controllers
 
   ### Front page to receive barcode scanner

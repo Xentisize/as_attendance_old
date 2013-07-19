@@ -1,4 +1,4 @@
 require 'sinatra'
 require './main'
 
-run AsAttendance
+run Sinatra::Application
