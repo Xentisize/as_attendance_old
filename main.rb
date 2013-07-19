@@ -41,7 +41,7 @@ class AsAttendance < Sinatra::Base
   configure :production do
     register Sinatra::ActiveRecordExtension
     register Sinatra::Flash
-    ActiveRecord::Base.establish_connection(ENV["DATABASE_URL"])
+    db = URI.parse(ENV['DATABASE_URL'])
     ActiveRecord::Base.establish_connection(
       :adapter => db.scheme == 'postgres' ? 'postgresql' : db.scheme,
       :host => db.host,
