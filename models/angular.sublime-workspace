@@ -40,50 +40,18 @@
 	"buffers":
 	[
 		{
-			"file": "new_student.slim",
+			"file": "/usr/local/var/www/js/controllers.js",
 			"settings":
 			{
-				"buffer_size": 363,
+				"buffer_size": 288,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "student_form.slim",
+			"file": "/usr/local/var/www/angular.html",
 			"settings":
 			{
-				"buffer_size": 4113,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/wik/WS/as_attendance/main.rb",
-			"settings":
-			{
-				"buffer_size": 5999,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/wik/WS/as_attendance/Gemfile",
-			"settings":
-			{
-				"buffer_size": 178,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/wik/WS/as_attendance/config.ru",
-			"settings":
-			{
-				"buffer_size": 61,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/wik/WS/as_attendance/models/admin.rb",
-			"settings":
-			{
-				"buffer_size": 499,
+				"buffer_size": 510,
 				"line_ending": "Unix"
 			}
 		}
@@ -164,6 +132,7 @@
 	},
 	"file_history":
 	[
+		"/usr/local/var/www/js/angular.js",
 		"/Users/wik/WS/as_attendance/views/layout.slim",
 		"/Users/wik/WS/as_attendance/views/student/full_student.slim",
 		"/Users/wik/WS/as_attendance/config.ru",
@@ -328,28 +297,28 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "new_student.slim",
+					"file": "/usr/local/var/www/js/controllers.js",
 					"settings":
 					{
-						"buffer_size": 363,
+						"buffer_size": 288,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								320,
-								320
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/ruby-slim.tmbundle/Syntaxes/Ruby Slim.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -359,127 +328,23 @@
 				},
 				{
 					"buffer": 1,
-					"file": "student_form.slim",
+					"file": "/usr/local/var/www/angular.html",
 					"settings":
 					{
-						"buffer_size": 4113,
+						"buffer_size": 510,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4041,
-								4041
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/ruby-slim.tmbundle/Syntaxes/Ruby Slim.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Users/wik/WS/as_attendance/main.rb",
-					"settings":
-					{
-						"buffer_size": 5999,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1865,
-								1865
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1005.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/Users/wik/WS/as_attendance/Gemfile",
-					"settings":
-					{
-						"buffer_size": 178,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								107,
-								107
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/Users/wik/WS/as_attendance/config.ru",
-					"settings":
-					{
-						"buffer_size": 61,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1,
-								1
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/Users/wik/WS/as_attendance/models/admin.rb",
-					"settings":
-					{
-						"buffer_size": 499,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								50,
-								50
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

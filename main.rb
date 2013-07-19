@@ -48,13 +48,14 @@ class AsAttendance < Sinatra::Base
     db = URI.parse(ENV['DATABASE_URL'] || 'postgres://localhost/mydb')
 
     ActiveRecord::Base.establish_connection(
-      :adapter  => db.scheme == 'postgres' ? 'postgresql' : db.scheme,
-      :host     => db.host,
-      :port     => db.port,
-      :username => db.user,
-      :password => db.password,
-      :database => db.path[1..-1],
-      :encoding => 'utf8'
+      :adapter  => "postgresql",
+      :host     => "dec2-54-225-102-116.compute-1.amazonaws.com",
+      :port     => 5432,
+      :username => "rmzegwelgmsfax",
+      :password => "OxGkNRiDqjdd2LTAzxLp-STitQ",
+      :database => "d7drhhutietum5",
+      :encoding => 'utf8',
+      :pool => 5
     )
 
     set :username, "as"
