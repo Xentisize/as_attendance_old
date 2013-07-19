@@ -1,11 +1,12 @@
 require 'sinatra/base'
-require 'sinatra/reloader'
+require 'sinatra/reloader' if development?
 require 'sinatra/json'
-require 'sqlite3'
+#require 'sqlite3'
 require 'sass'
 require 'slim'
 require 'sinatra/flash'
-require 'logger'
+require 'pg' if production?
+require 'logger' if development?
 require './models/admin'
 require './models/student'
 require './models/student_attendance'
@@ -19,19 +20,21 @@ class AsAttendance < Sinatra::Base
   helpers ViewsHelpers
   helpers ControllersHelpers
   helpers Sinatra::JSON
-  error_logger = Logger.new("log/errors.log")
+
 
 
   configure :development do
     register Sinatra::ActiveRecordExtension
     register Sinatra::Reloader
     register Sinatra::Flash
+    require 'sqlite3'
     set :method_override => true
     enable :logging
     enable :sessions
     ### Password set for admin login
     set :username, "as"
     set :password, "all04round"
+    error_logger = Logger.new("log/errors.log")
   end
 
   configure :production do
