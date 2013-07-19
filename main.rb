@@ -44,16 +44,19 @@ class AsAttendance < Sinatra::Base
     require 'pg'
     register Sinatra::ActiveRecordExtension
     register Sinatra::Flash
+
     db = URI.parse(ENV['DATABASE_URL'] || 'postgres://localhost/mydb')
+
     ActiveRecord::Base.establish_connection(
-      :adapter => db.scheme == 'postgres' ? 'postgresql' : db.scheme,
-      :host => db.host,
-      :port => db.port,
+      :adapter  => db.scheme == 'postgres' ? 'postgresql' : db.scheme,
+      :host     => db.host,
+      :port     => db.port,
       :username => db.user,
       :password => db.password,
       :database => db.path[1..-1],
       :encoding => 'utf8'
-      )
+    )
+
     set :username, "as"
     set :password, "all04round"
   end
