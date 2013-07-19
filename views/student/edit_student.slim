@@ -1,0 +1,4 @@
+div class="container"
+  form action="/students/show/#{@student.id}/update" method="POST"
+    input type="hidden" name="_method" value="PUT"
+    == slim "student/student_form".to_sym

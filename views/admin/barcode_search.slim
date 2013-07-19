@@ -1,0 +1,42 @@
+script src="/js/jquery-1.10.2.js"
+script src="/js/bootstrap.js"
+script src="/js/admin.js"
+script src="/js/prettify.js"
+script src="/js/bootstrap-multiselect.js"
+link rel="stylesheet" href="/css/prettify.css"
+link rel="stylesheet" href="/css/bootstrap-multiselect.css"
+
+- if flash[:notice]
+  == show_notice
+- elsif flash[:warning]
+  == show_warning
+
+
+div id="myCarousel" class="carousel slide"
+  div class="carousel-inner"
+    div class="hero-unit active-item"
+      h1 Welcome to Academy of Scholars
+      p Please place your <strong>Student ID</strong> under the barcode scanner to take attendance.
+      form class="form-search" action="/students/find" method="GET"
+        /div class="input-prepend input-append"
+        /  span class="add-on"
+        /  b class="icon-list-alt"
+        /  select class="multiselect" multiple="multiple"
+        /    option value="chinese" Chinese (中文)
+        /    option value="english" English (英文)
+        /    option value="maths" Mathematics （數學）
+        /    option value="IS" IS （綜合科學）
+        /    option value="chemistry" Chemistry （化學）
+        /    option value="physics" Physics （物理）
+        /    option value="exam" Exams （考試操卷班）
+        /    option value="homework" Homework （功課輔導班）
+        /    option value="biology" Biology （生物）
+        /    option value="LS" Liberal Studies （通識）
+        /    option value="Misc" Miscellenous （其他）
+        input#barcode_input type="text" class="input-large search-query" name="student[student_id]"
+        button type="submit" style="margin-left: 20px;" class="btn btn-primary btn-small" Take attendance
+
+
+  // Navigation
+  a class="carousel-control left" href="myCarousel" data-slide="prev" &lsaquo;
+  a class="carousel-control right" href="myCarousel" data-slide="next" &rsaquo;

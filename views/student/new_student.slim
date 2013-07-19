@@ -1,0 +1,6 @@
+// For generating "POST" method in order to save student's record.
+// Partial rendering to student_form.slim so that we can reuse the form later when we are editing the student.
+//h2 Please fill in the form correctly and correctly
+div class="container"
+  form method="POST" class="form-horizontal" action="/students/new"
+    == slim "student/student_form".to_sym

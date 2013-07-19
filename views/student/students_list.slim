@@ -1,0 +1,29 @@
+script src="/js/jquery-1.10.2.js"
+script src="/js/student.js"
+div class="container"
+  p class="text-right" style="margin-right: 10px;" <a href="/students/new">Entering new record</a>
+  div class="row"
+    div class="span3"
+    form class="form-search pull-right" id="student_search" style="margin-right: 10px;"
+      input#students_name_filter type="text" class="input-medium query" placeholder="Type to search"
+  table#students_list_table class="table table-striped table-bordered"
+    caption <h3>List of students</h3>
+    thead
+      tr
+        th Student ID
+        th English Name
+        th Chinese Name
+        th Self Tel.
+        th Parents Tel.
+        th E-mail
+        th More Info.
+    tbody
+      - @students.each do |student|
+        tr
+          td #{student.student_id}
+          td == forming_english_name(student)
+          td #{student.chinese_name}
+          td #{student.self_tel}
+          td #{student.parents_tel}
+          td #{student.email}
+          td <a href="#{student.id}/info"><small> >>> </small></a>

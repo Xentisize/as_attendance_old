@@ -1,0 +1,39 @@
+
+div class="container"
+  section
+    div class="row"
+      div class="span5 offset1"
+        p Student ID: #{@student.student_id}
+        p English Name: #{forming_english_name(@student)}
+        p Full Name: #{@student.last_name} #{@student.first_name}
+        p Chinese Name: #{@student.chinese_name}
+        p Gender: #{@student.gender}
+        p Date of Birth: #{@student.date_of_birth.strftime("%Y-%m-%d") unless @student.date_of_birth.nil? || ""}
+        br
+        p School(Chinese): #{@student.school_chi_name}
+        p School(English): #{@student.school_eng_name}
+      div class="span5 offset1"
+        p Self Tel.: #{@student.self_tel || ""}
+        p Parents Tel.: #{@student.parents_tel || ""}
+        p Contact Tel.: #{@student.contact_tel || ""}
+        p E-mail: #{@student.email || ""}
+        p Address: #{@student.address || ""}
+        br
+        p Admission date: #{@student.admission_date.strftime("%Y-%m-%d") unless @student.admission_date.nil? || ""}
+        br
+        p Referred from: #{@student.refer_from}
+    br
+    p class="text-right" style="margin-right: 30px;" <a href="/students/show"> Return to list</a>
+    == slim "/attendance/show_attendances".to_sym
+      br
+    div class="form-actions pull-right"
+      button type="submit" id="student_#{@student.id}_update" class="btn btn-primary update_student_form" Edit
+      button type="button" class="btn btn-danger" style="margin-left: 5px;" disabled="disabled" Delete
+      /form action="/students/show/#{@student.id}/update" method="GET"
+       / input type="submit" value="edit"
+      /form action="/students/#{@student.id}/destroy" method="POST"
+       / input type="hidden" name="_method" value="DELETE"
+        /input type="submit" value="delete"
+    br
+
+script src="/js/student.js"

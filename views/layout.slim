@@ -1,0 +1,32 @@
+// Common layout for the whole AS attendance system.
+
+DOCTYPE html
+html
+  head
+    title == @title || "Academy of Scholars"
+    script src="/js/jquery-1.10.2.js"
+    script src="/js/bootstrap.min.js"
+    script src="/js/moment.min.js"
+    script src="/js/daterangepicker.js"
+    script src="/js/main.js"
+    /script src="/js/attendance.js"
+    link rel="stylesheet" href="/css/bootstrap.css"
+    link rel="stylesheet" href="/css/daterangepicker.css"
+    meta charset="utf-8"
+  body
+    div class="row"
+      div class="container"
+        div class="navbar"
+          a class="brand" AS
+        ul class="nav nav-pills"
+          li <a href="/" class="active"><i class="icon-home"></i>  Home</a>
+          li <a href="/students/show" >Students</a>
+          - if session[:admin]
+              p class="text-right" <small> You have logged in as Admin <a href="/admin/logout"><span class="label">Logout</span></a></small>
+          - else
+              form#login_form class="navbar-form form-inline pull-right" action="/admin/login" method="POST"
+                input#admin_username type="text" name="username" placeholder="Username"
+                input#admin_password type="password" name="password" placeholder="Password"
+                button class="btn" type="submit" login
+
+    == yield

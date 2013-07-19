@@ -1,0 +1,183 @@
+I, [2013-07-17T19:39:33.262281 #1778]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-17T19:41:32.441247 #1800]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-17T19:41:32.441409 #1800]  INFO -- : #<ActiveRecord::Associations::CollectionProxy [#<AttendanceRemark id: 1, student_attendance_id: 1, label: "extra hour", in_text: "1 more hour added">]>
+I, [2013-07-17T19:43:28.784529 #1808]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-17T19:43:28.784701 #1808]  INFO -- : #<ActiveRecord::Associations::CollectionProxy [#<AttendanceRemark id: 1, student_attendance_id: 1, label: "extra hour", in_text: "1 more hour added">]>
+I, [2013-07-17T19:43:58.741047 #1809]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-17T19:43:58.741231 #1809]  INFO -- : #<ActiveRecord::Associations::CollectionProxy [#<AttendanceRemark id: 1, student_attendance_id: 1, label: "extra hour", in_text: "1 more hour added">]>
+I, [2013-07-17T19:44:10.402643 #1812]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-17T19:44:10.402791 #1812]  INFO -- : #<ActiveRecord::Associations::CollectionProxy [#<AttendanceRemark id: 1, student_attendance_id: 1, label: "extra hour", in_text: "1 more hour added">]>
+I, [2013-07-17T19:44:10.417363 #1812]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: nil>
+I, [2013-07-17T19:44:10.417524 #1812]  INFO -- : #<ActiveRecord::Associations::CollectionProxy []>
+I, [2013-07-17T19:45:08.696026 #1814]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-17T19:45:08.696208 #1814]  INFO -- : #<ActiveRecord::Associations::CollectionProxy [#<AttendanceRemark id: 1, student_attendance_id: 1, label: "extra hour", in_text: "1 more hour added">]>
+I, [2013-07-17T19:45:59.057001 #1815]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-17T19:45:59.057154 #1815]  INFO -- : #<ActiveRecord::Associations::CollectionProxy [#<AttendanceRemark id: 1, student_attendance_id: 1, label: "extra hour", in_text: "1 more hour added">]>
+I, [2013-07-17T19:45:59.070701 #1815]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: nil>
+I, [2013-07-17T19:45:59.070823 #1815]  INFO -- : #<ActiveRecord::Associations::CollectionProxy []>
+I, [2013-07-17T19:47:37.343869 #1817]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-17T19:47:37.344034 #1817]  INFO -- : #<ActiveRecord::Associations::CollectionProxy [#<AttendanceRemark id: 1, student_attendance_id: 1, label: "extra hour", in_text: "1 more hour added">]>
+I, [2013-07-17T19:47:37.355682 #1817]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: nil>
+I, [2013-07-17T19:47:37.355792 #1817]  INFO -- : #<ActiveRecord::Associations::CollectionProxy []>
+I, [2013-07-17T19:48:43.228799 #1819]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-17T19:48:43.228977 #1819]  INFO -- : #<ActiveRecord::Associations::CollectionProxy [#<AttendanceRemark id: 1, student_attendance_id: 1, label: "extra hour", in_text: "1 more hour added">]>
+I, [2013-07-17T19:48:43.241863 #1819]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: nil>
+I, [2013-07-17T19:48:43.241992 #1819]  INFO -- : #<ActiveRecord::Associations::CollectionProxy []>
+I, [2013-07-17T19:51:46.118065 #1821]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-17T19:51:46.118263 #1821]  INFO -- : #<ActiveRecord::Associations::CollectionProxy [#<AttendanceRemark id: 1, student_attendance_id: 1, label: "extra hour", in_text: "1 more hour added">]>
+I, [2013-07-17T19:51:46.131954 #1821]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: nil>
+I, [2013-07-17T19:51:46.132068 #1821]  INFO -- : #<ActiveRecord::Associations::CollectionProxy []>
+I, [2013-07-17T19:52:51.236375 #1822]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-17T19:52:51.236542 #1822]  INFO -- : #<ActiveRecord::Associations::CollectionProxy [#<AttendanceRemark id: 1, student_attendance_id: 1, label: "extra hour", in_text: "1 more hour added">]>
+I, [2013-07-17T19:52:51.250081 #1822]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: nil>
+I, [2013-07-17T19:52:51.250252 #1822]  INFO -- : #<ActiveRecord::Associations::CollectionProxy []>
+I, [2013-07-17T19:54:09.827300 #1824]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-17T19:54:09.827450 #1824]  INFO -- : #<ActiveRecord::Associations::CollectionProxy [#<AttendanceRemark id: 1, student_attendance_id: 1, label: "extra hour", in_text: "1 more hour added">]>
+I, [2013-07-17T19:54:09.839136 #1824]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: nil>
+I, [2013-07-17T19:54:09.839248 #1824]  INFO -- : #<ActiveRecord::Associations::CollectionProxy []>
+I, [2013-07-17T19:54:59.468033 #1824]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-17T19:54:59.468276 #1824]  INFO -- : #<ActiveRecord::Associations::CollectionProxy [#<AttendanceRemark id: 1, student_attendance_id: 1, label: "extra hour", in_text: "1 more hour added">]>
+I, [2013-07-17T19:54:59.469431 #1824]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: nil>
+I, [2013-07-17T19:54:59.469567 #1824]  INFO -- : #<ActiveRecord::Associations::CollectionProxy []>
+I, [2013-07-17T19:55:29.791274 #1824]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-17T19:55:29.791381 #1824]  INFO -- : #<ActiveRecord::Associations::CollectionProxy [#<AttendanceRemark id: 1, student_attendance_id: 1, label: "extra hour", in_text: "1 more hour added">]>
+I, [2013-07-17T19:55:29.792806 #1824]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: nil>
+I, [2013-07-17T19:55:29.792956 #1824]  INFO -- : #<ActiveRecord::Associations::CollectionProxy []>
+I, [2013-07-17T20:54:24.499826 #1825]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-17T20:54:24.516999 #1825]  INFO -- : #<ActiveRecord::Associations::CollectionProxy [#<AttendanceRemark id: 1, student_attendance_id: 1, label: "extra hour", in_text: "1 more hour added">]>
+I, [2013-07-17T20:54:24.530083 #1825]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: nil>
+I, [2013-07-17T20:54:24.530194 #1825]  INFO -- : #<ActiveRecord::Associations::CollectionProxy []>
+I, [2013-07-17T20:56:15.221354 #1825]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-17T20:56:15.221519 #1825]  INFO -- : #<ActiveRecord::Associations::CollectionProxy [#<AttendanceRemark id: 1, student_attendance_id: 1, label: "extra hour", in_text: "1 more hour added">]>
+I, [2013-07-17T20:56:15.222939 #1825]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: nil>
+I, [2013-07-17T20:56:15.223096 #1825]  INFO -- : #<ActiveRecord::Associations::CollectionProxy []>
+I, [2013-07-17T20:57:07.409840 #1825]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-17T20:57:07.409959 #1825]  INFO -- : #<ActiveRecord::Associations::CollectionProxy [#<AttendanceRemark id: 1, student_attendance_id: 1, label: "extra hour", in_text: "1 more hour added">]>
+I, [2013-07-17T20:57:07.411538 #1825]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: nil>
+I, [2013-07-17T20:57:07.411698 #1825]  INFO -- : #<ActiveRecord::Associations::CollectionProxy []>
+I, [2013-07-17T20:57:16.584487 #1825]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-17T20:57:16.584632 #1825]  INFO -- : #<ActiveRecord::Associations::CollectionProxy [#<AttendanceRemark id: 1, student_attendance_id: 1, label: "extra hour", in_text: "1 more hour added">]>
+I, [2013-07-17T20:57:16.585922 #1825]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: nil>
+I, [2013-07-17T20:57:16.586026 #1825]  INFO -- : #<ActiveRecord::Associations::CollectionProxy []>
+I, [2013-07-17T20:57:26.374227 #1825]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-17T20:57:26.374349 #1825]  INFO -- : #<ActiveRecord::Associations::CollectionProxy [#<AttendanceRemark id: 1, student_attendance_id: 1, label: "extra hour", in_text: "1 more hour added">]>
+I, [2013-07-17T20:57:26.375377 #1825]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: nil>
+I, [2013-07-17T20:57:26.375455 #1825]  INFO -- : #<ActiveRecord::Associations::CollectionProxy []>
+I, [2013-07-17T20:58:35.050920 #1929]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-17T20:58:35.051159 #1929]  INFO -- : #<ActiveRecord::Associations::CollectionProxy [#<AttendanceRemark id: 1, student_attendance_id: 1, label: "extra hour", in_text: "1 more hour added">]>
+I, [2013-07-17T20:58:35.065927 #1929]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: nil>
+I, [2013-07-17T20:58:35.066041 #1929]  INFO -- : #<ActiveRecord::Associations::CollectionProxy []>
+I, [2013-07-17T21:02:36.933522 #1934]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-17T21:02:36.933684 #1934]  INFO -- : #<ActiveRecord::Associations::CollectionProxy [#<AttendanceRemark id: 1, student_attendance_id: 1, label: "extra hour", in_text: "1 more hour added">]>
+I, [2013-07-17T21:02:36.948904 #1934]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: nil>
+I, [2013-07-17T21:02:36.949050 #1934]  INFO -- : #<ActiveRecord::Associations::CollectionProxy []>
+I, [2013-07-17T21:14:37.769117 #1977]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-17T21:14:37.769255 #1977]  INFO -- : #<ActiveRecord::Associations::CollectionProxy [#<AttendanceRemark id: 1, student_attendance_id: 1, label: "extra hour", in_text: "1 more hour added">]>
+I, [2013-07-17T21:14:37.780537 #1977]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: nil>
+I, [2013-07-17T21:14:37.780663 #1977]  INFO -- : #<ActiveRecord::Associations::CollectionProxy []>
+I, [2013-07-17T21:17:00.123650 #1978]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-17T21:17:00.123803 #1978]  INFO -- : #<ActiveRecord::Associations::CollectionProxy [#<AttendanceRemark id: 1, student_attendance_id: 1, label: "extra hour", in_text: "1 more hour added">]>
+I, [2013-07-17T21:17:00.139602 #1978]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: nil>
+I, [2013-07-17T21:17:00.139711 #1978]  INFO -- : #<ActiveRecord::Associations::CollectionProxy []>
+I, [2013-07-17T21:19:16.815482 #1978]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-17T21:19:16.815653 #1978]  INFO -- : #<ActiveRecord::Associations::CollectionProxy [#<AttendanceRemark id: 1, student_attendance_id: 1, label: "extra hour", in_text: "1 more hour added">]>
+I, [2013-07-17T21:19:16.817128 #1978]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: nil>
+I, [2013-07-17T21:19:16.817326 #1978]  INFO -- : #<ActiveRecord::Associations::CollectionProxy []>
+I, [2013-07-17T21:20:14.580136 #1978]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-17T21:20:14.580263 #1978]  INFO -- : #<ActiveRecord::Associations::CollectionProxy [#<AttendanceRemark id: 1, student_attendance_id: 1, label: "extra hour", in_text: "1 more hour added">]>
+I, [2013-07-17T21:20:14.581289 #1978]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: nil>
+I, [2013-07-17T21:20:14.581380 #1978]  INFO -- : #<ActiveRecord::Associations::CollectionProxy []>
+I, [2013-07-17T21:34:08.102225 #1996]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-17T21:34:08.117078 #1996]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: "2013-07-17 21:31:48">
+I, [2013-07-17T21:34:08.118864 #1996]  INFO -- : #<StudentAttendance id: 4, student_id: 1, arrival: "2013-07-17 21:31:51", leave: nil>
+I, [2013-07-17T21:41:11.466291 #1996]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-17T21:41:11.488351 #1996]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: "2013-07-17 21:31:48">
+I, [2013-07-17T21:41:11.490807 #1996]  INFO -- : #<StudentAttendance id: 4, student_id: 1, arrival: "2013-07-17 21:31:51", leave: nil>
+I, [2013-07-17T21:46:36.750142 #2008]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-17T21:46:36.764909 #2008]  INFO -- : <div><span class="label label-info">extra hour</span><p>1 more hour added</p></i> <i class="icon-trash"> </i>
+I, [2013-07-17T21:46:36.766913 #2008]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: "2013-07-17 21:31:48">
+I, [2013-07-17T21:46:36.768693 #2008]  INFO -- : #<StudentAttendance id: 4, student_id: 1, arrival: "2013-07-17 21:31:51", leave: nil>
+I, [2013-07-17T21:47:19.107339 #2010]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-17T21:47:19.109278 #2010]  INFO -- : #<ActiveRecord::Associations::CollectionProxy [#<AttendanceRemark id: 1, student_attendance_id: 1, label: "extra hour", in_text: "1 more hour added">]>
+I, [2013-07-17T21:47:19.121982 #2010]  INFO -- : <div><span class="label label-info">extra hour</span><p>1 more hour added</p></i> <i class="icon-trash"> </i>
+I, [2013-07-17T21:47:19.123599 #2010]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: "2013-07-17 21:31:48">
+I, [2013-07-17T21:47:19.124016 #2010]  INFO -- : #<ActiveRecord::Associations::CollectionProxy []>
+I, [2013-07-17T21:47:19.125370 #2010]  INFO -- : #<StudentAttendance id: 4, student_id: 1, arrival: "2013-07-17 21:31:51", leave: nil>
+I, [2013-07-17T21:47:19.125683 #2010]  INFO -- : #<ActiveRecord::Associations::CollectionProxy []>
+I, [2013-07-17T21:47:53.464251 #2011]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-17T21:47:53.467643 #2011]  INFO -- : 1
+I, [2013-07-17T21:47:53.477915 #2011]  INFO -- : <div><span class="label label-info">extra hour</span><p>1 more hour added</p></i> <i class="icon-trash"> </i>
+I, [2013-07-17T21:47:53.479242 #2011]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: "2013-07-17 21:31:48">
+I, [2013-07-17T21:47:53.480238 #2011]  INFO -- : 0
+I, [2013-07-17T21:47:53.481962 #2011]  INFO -- : #<StudentAttendance id: 4, student_id: 1, arrival: "2013-07-17 21:31:51", leave: nil>
+I, [2013-07-17T21:47:53.482742 #2011]  INFO -- : 0
+I, [2013-07-17T22:02:02.765392 #2011]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-17T22:02:02.766493 #2011]  INFO -- : 1
+I, [2013-07-17T22:02:02.767589 #2011]  INFO -- : <div><span class="label label-info">extra hour</span><p>1 more hour added</p></i> <i class="icon-trash"> </i>
+I, [2013-07-17T22:02:02.768513 #2011]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: "2013-07-17 21:31:48">
+I, [2013-07-17T22:02:02.769477 #2011]  INFO -- : 0
+I, [2013-07-17T22:02:02.791431 #2011]  INFO -- : #<StudentAttendance id: 4, student_id: 1, arrival: "2013-07-17 21:31:51", leave: nil>
+I, [2013-07-17T22:02:02.792732 #2011]  INFO -- : 0
+I, [2013-07-18T00:55:25.760871 #2075]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-18T00:55:25.763652 #2075]  INFO -- : Remarks count: 1
+I, [2013-07-18T00:55:25.773089 #2075]  INFO -- : <div><span class="label label-info">extra hour</span><p>1 more hour added</p></i> <i class="icon-trash"> </i>
+I, [2013-07-18T00:55:25.774381 #2075]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: "2013-07-17 21:31:48">
+I, [2013-07-18T00:55:25.775201 #2075]  INFO -- : Remarks count: 0
+I, [2013-07-18T00:55:25.776698 #2075]  INFO -- : #<StudentAttendance id: 4, student_id: 1, arrival: "2013-07-17 21:31:51", leave: nil>
+I, [2013-07-18T00:55:25.777328 #2075]  INFO -- : Remarks count: 0
+I, [2013-07-18T00:57:37.657145 #2083]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-18T00:57:37.659728 #2083]  INFO -- : Remarks count: 1
+I, [2013-07-18T00:57:37.670009 #2083]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: "2013-07-17 21:31:48">
+I, [2013-07-18T00:57:37.670925 #2083]  INFO -- : Remarks count: 0
+I, [2013-07-18T00:57:37.672554 #2083]  INFO -- : #<StudentAttendance id: 4, student_id: 1, arrival: "2013-07-17 21:31:51", leave: nil>
+I, [2013-07-18T00:57:37.693735 #2083]  INFO -- : Remarks count: 0
+I, [2013-07-18T00:58:11.650455 #2083]  INFO -- : #<StudentAttendance id: 2, student_id: 2, arrival: "2013-07-17 13:28:37", leave: nil>
+I, [2013-07-18T00:58:11.651521 #2083]  INFO -- : Remarks count: 0
+I, [2013-07-18T00:58:41.344140 #2083]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-18T00:58:41.345833 #2083]  INFO -- : Remarks count: 1
+I, [2013-07-18T00:58:41.348195 #2083]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: "2013-07-17 21:31:48">
+I, [2013-07-18T00:58:41.349325 #2083]  INFO -- : Remarks count: 0
+I, [2013-07-18T00:58:41.354601 #2083]  INFO -- : #<StudentAttendance id: 4, student_id: 1, arrival: "2013-07-17 21:31:51", leave: nil>
+I, [2013-07-18T00:58:41.355308 #2083]  INFO -- : Remarks count: 0
+I, [2013-07-18T01:02:02.034359 #2083]  INFO -- : #<StudentAttendance id: 1, student_id: 1, arrival: "2013-07-16 20:27:14", leave: "2013-07-17 13:28:35">
+I, [2013-07-18T01:02:02.035319 #2083]  INFO -- : Remarks count: 1
+I, [2013-07-18T01:02:02.036931 #2083]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: "2013-07-17 21:31:48">
+I, [2013-07-18T01:02:02.037553 #2083]  INFO -- : Remarks count: 0
+I, [2013-07-18T01:02:02.039086 #2083]  INFO -- : #<StudentAttendance id: 4, student_id: 1, arrival: "2013-07-17 21:31:51", leave: nil>
+I, [2013-07-18T01:02:02.039929 #2083]  INFO -- : Remarks count: 0
+I, [2013-07-18T01:14:30.869678 #2083]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: "2013-07-17 21:31:48">
+I, [2013-07-18T01:14:30.870801 #2083]  INFO -- : Remarks count: 0
+I, [2013-07-18T01:14:30.872513 #2083]  INFO -- : #<StudentAttendance id: 4, student_id: 1, arrival: "2013-07-17 21:31:51", leave: nil>
+I, [2013-07-18T01:14:30.873276 #2083]  INFO -- : Remarks count: 0
+I, [2013-07-18T01:26:02.654505 #2102]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: "2013-07-17 21:31:48">
+I, [2013-07-18T01:26:02.657461 #2102]  INFO -- : Remarks count: 0
+I, [2013-07-18T01:26:02.658755 #2102]  INFO -- : #<StudentAttendance id: 4, student_id: 1, arrival: "2013-07-17 21:31:51", leave: nil>
+I, [2013-07-18T01:26:02.659487 #2102]  INFO -- : Remarks count: 0
+I, [2013-07-18T01:27:40.256297 #2102]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: "2013-07-17 21:31:48">
+I, [2013-07-18T01:27:40.257846 #2102]  INFO -- : Remarks count: 0
+I, [2013-07-18T01:27:40.259093 #2102]  INFO -- : #<StudentAttendance id: 4, student_id: 1, arrival: "2013-07-17 21:31:51", leave: nil>
+I, [2013-07-18T01:27:40.260059 #2102]  INFO -- : Remarks count: 0
+I, [2013-07-18T01:28:55.612334 #2106]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: "2013-07-17 21:31:48">
+I, [2013-07-18T01:28:55.615549 #2106]  INFO -- : Remarks count: 0
+I, [2013-07-18T01:28:55.617225 #2106]  INFO -- : #<StudentAttendance id: 4, student_id: 1, arrival: "2013-07-17 21:31:51", leave: nil>
+I, [2013-07-18T01:28:55.618585 #2106]  INFO -- : Remarks count: 0
+I, [2013-07-18T01:31:15.449037 #2106]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: "2013-07-17 21:31:48">
+I, [2013-07-18T01:31:15.450150 #2106]  INFO -- : Remarks count: 0
+I, [2013-07-18T01:31:15.451199 #2106]  INFO -- : #<StudentAttendance id: 4, student_id: 1, arrival: "2013-07-17 21:31:51", leave: nil>
+I, [2013-07-18T01:31:15.451815 #2106]  INFO -- : Remarks count: 0
+I, [2013-07-18T01:55:32.433302 #2106]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: "2013-07-17 21:31:48">
+I, [2013-07-18T01:55:32.434437 #2106]  INFO -- : Remarks count: 0
+I, [2013-07-18T01:55:32.435717 #2106]  INFO -- : #<StudentAttendance id: 4, student_id: 1, arrival: "2013-07-17 21:31:51", leave: nil>
+I, [2013-07-18T01:55:32.436377 #2106]  INFO -- : Remarks count: 0
+I, [2013-07-18T01:55:42.017461 #2106]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: "2013-07-17 21:31:48">
+I, [2013-07-18T01:55:42.018714 #2106]  INFO -- : Remarks count: 0
+I, [2013-07-18T01:55:42.019818 #2106]  INFO -- : #<StudentAttendance id: 4, student_id: 1, arrival: "2013-07-17 21:31:51", leave: nil>
+I, [2013-07-18T01:55:42.020466 #2106]  INFO -- : Remarks count: 0
+I, [2013-07-18T01:55:53.965080 #2106]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: "2013-07-17 21:31:48">
+I, [2013-07-18T01:55:53.966055 #2106]  INFO -- : Remarks count: 0
+I, [2013-07-18T01:55:53.967251 #2106]  INFO -- : #<StudentAttendance id: 4, student_id: 1, arrival: "2013-07-17 21:31:51", leave: nil>
+I, [2013-07-18T01:55:53.968028 #2106]  INFO -- : Remarks count: 0
+I, [2013-07-18T01:58:07.452442 #2106]  INFO -- : #<StudentAttendance id: 3, student_id: 1, arrival: "2013-07-17 18:19:00", leave: "2013-07-17 21:31:48">
+I, [2013-07-18T01:58:07.453405 #2106]  INFO -- : Remarks count: 0
+I, [2013-07-18T01:58:07.454567 #2106]  INFO -- : #<StudentAttendance id: 4, student_id: 1, arrival: "2013-07-17 21:31:51", leave: nil>
+I, [2013-07-18T01:58:07.455212 #2106]  INFO -- : Remarks count: 0

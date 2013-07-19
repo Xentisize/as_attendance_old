@@ -1,0 +1,71 @@
+// This is the form for filling student record.
+// Student ID: Generated from the computer.
+script src="/js/student.js"
+fieldset
+  legend Personal Information
+  div class="control-group"
+    label class="control-label" for="student_student_id" Student ID:
+    div class="controls"
+      input#student_student_id class="uneditable-input input-xlarge" type="text" name="student[student_id]" value="#{@student.student_id || generate_student_id(@last_student_id)}"
+    label class="control-label" for="student_english_name" English Name:
+    div class="controls"
+      input#student_english_name class="input-xlarge" type="text" name="student[english_name]" value="#{@student.english_name}"
+    label class="control-label" for="student_last_name" Last Name:
+    div class="controls"
+      input#student_last_name type="text" class="input-xlarge" name="student[last_name]" value="#{@student.last_name}"
+    label class="control-label" for="student_first_name" First Name:
+    div class="controls"
+      input#student_first_name type="text" class="input-xlarge" name="student[first_name]" value="#{@student.first_name}"
+    label class="control-label" for="student_chinese_name" Chinese Name:
+    div class="controls"
+      input#student_chinese_name class="input-xlarge" type="text" name="student[chinese_name]" value="#{@student.chinese_name}"
+    label class="control-label" for="student_gender" Gender:
+    div class="controls"
+      select#student_gender class="input-xlarge" name="student[gender]" value="#{@student.gender}"
+        option M
+        option F
+    label class="control-label" for="student_date_of_birth" Birth Date:
+    div class="controls"
+      input#student_date_of_birth type="date" class="input-xlarge" name="student[date_of_birth]" value="#{@student.date_of_birth}"
+// School
+fieldset
+  legend School Information
+  label class="control-label" class="input-xlarge" for="student_school_name" School(Chinese):
+  div class="controls"
+    input#student_school_chi_name type="text" class="input-xlarge" name="student[school_chi_name]" value="#{@student.school_chi_name}"
+  label class="control-label" class="input-xlarge" for="student_school_name" School(English):
+  div class="controls"
+    input#student_school_eng_name type="text" class="input-xlarge" name="student[school_eng_name]" value="#{@student.school_eng_name}"
+// Contact Information
+fieldset
+  legend Contact Information
+  label class="control-label" for="student_self_tel" Self Tel:
+  div class="controls"
+    input#student_self_tel class="input-xlarge" type="tel" name="student[self_tel]" value="#{@student.self_tel}"
+  label class="control-label" for="student_parents_tel" Parents Tel:
+  div class="controls"
+    input#student_parents_tel class="input-xlarge" type="tel" name="student[parents_tel]" value="#{@student.parents_tel}"
+  label class="control-label" for="student_contact_tel" Contact Tel:
+  div class="controls"
+    input#student_contact_tel class="input-xlarge" type="tel" name="student[contact_tel]" value="#{@student.contact_tel}"
+  label class="control-label" for="student_email" E-mail:
+  div class="controls"
+    input#student_email class="input-xlarge" type="email" name="student[email]" value="#{@student.email}"
+  label class="control-label" for="student_address" Address:
+  div class="controls"
+    input#student_address class="input-xlarge" type="text" name="student[address]" value="#{@student.address}"
+// Date Information
+fieldset
+  legend Application Related
+  label class="control-label" for="student_admission_date" Admission Date:
+  div class="controls"
+    input#student_date_of_join class="input-xlarge" type="date" name="student[admission_date]" value="#{@student.admission_date}"
+  // Referral Information
+  label class="control-label" for="student_refer_from" Referer:
+  div class="controls"
+    input#student_refer_from class="input-xlarge" type="text" name="student[refer_from]" value="#{@student.refer_from}"
+br
+div class="form-actions"
+  button class="btn btn-primary" Save
+  button class="btn btn-danger" id="cancel_edit" style="margin-left: 5px;" Cancel
+/ #TODO: Cancel function is not okay.

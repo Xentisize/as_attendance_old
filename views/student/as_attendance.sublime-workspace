@@ -1,0 +1,487 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"erro",
+				"error_logger"
+			],
+			[
+				"as",
+				"as	assert(..)"
+			],
+			[
+				"barcod",
+				"barcode_search"
+			],
+			[
+				"id",
+				"id"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"released",
+				"released_on"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"assert",
+				"assert_equal"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "new_student.slim",
+			"settings":
+			{
+				"buffer_size": 363,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "student_form.slim",
+			"settings":
+			{
+				"buffer_size": 4113,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"selected_items":
+		[
+			[
+				"TODO",
+				"Show TODOs: Project and open files"
+			],
+			[
+				"todo",
+				"Show TODOs: Project and open files"
+			],
+			[
+				"to",
+				"Show TODOs: Project and open files"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"pak",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			],
+			[
+				"pl",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 453.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/wik/WS/as_attendance/views/layout.slim",
+		"/Users/wik/WS/as_attendance/views/student/full_student.slim",
+		"/Users/wik/WS/as_attendance/config.ru",
+		"/Users/wik/WS/as_attendance/db/migrate/20130710161710_create_students.rb",
+		"/Users/wik/WS/as_attendance/main.rb",
+		"/Users/wik/WS/as_attendance/public/js/student.js",
+		"/Users/wik/WS/as_attendance/helpers/views_helpers.rb",
+		"/Users/wik/WS/as_attendance/views/attendance/show_attendances.slim",
+		"/Users/wik/WS/as_attendance/public/js/attendance.js",
+		"/Users/wik/WS/as_attendance/views/student/student_form.slim",
+		"/Users/wik/WS/as_attendance/views/student/new_student.slim",
+		"/Users/wik/WS/as_attendance/models/attendance_remark.rb",
+		"/Users/wik/WS/as_attendance/models/student.rb",
+		"/Users/wik/WS/as_attendance/models/student_attendance.rb",
+		"/Users/wik/WS/as_attendance/models/admin.rb",
+		"/Users/wik/WS/as_attendance/db/migrate/20130715063518_create_remarks.rb",
+		"/Users/wik/WS/as_attendance/Rakefile",
+		"/Users/wik/WS/as_attendance/views/admin/barcode_search.slim",
+		"/Users/wik/WS/as_attendance/db/migrate/20130710223820_create_attendances.rb",
+		"/Users/wik/WS/as_attendance/student.rb",
+		"/Users/wik/WS/as_attendance/models/attendances_remark.rb",
+		"/Users/wik/WS/as_attendance/models/attendance.rb",
+		"/Users/wik/WS/as_attendance/models/remark.rb",
+		"/Users/wik/WS/as_attendance/models/remark",
+		"/Users/wik/WS/as_attendance/public/js/admin.js",
+		"/Users/wik/WS/as_attendance/public/js/bootstrap-multiselect.js",
+		"/Users/wik/WS/as_attendance/views/student/edit_student.slim",
+		"/Users/wik/WS/as_attendance/public/js/datepicker.js",
+		"/Users/wik/WS/as_attendance/public/css/datepicker.css",
+		"/Users/wik/WS/as_attendance/public/js/students_list.js",
+		"/Users/wik/WS/as_attendance/public/js/student_form.js",
+		"/Users/wik/Desktop/r.html",
+		"/Users/wik/WS/as_attendance/public/js/main.js",
+		"/Users/wik/WS/as_attendance/views/student/students_list.slim",
+		"/Users/wik/WS/.git/COMMIT_EDITMSG",
+		"/Users/wik/WS/as_attendance/.git/COMMIT_EDITMSG",
+		"/Users/wik/Desktop/test.rb",
+		"/Users/wik/WS/as_attendance/views/attendance/take_attendance.slim",
+		"/Users/wik/WS/as_attendance/attendance.rb",
+		"/Users/wik/WS/as_attendance/views/admin/barcode_scanner.slim",
+		"/Users/wik/WS/as_attendance/views/students_list.slim",
+		"/Users/wik/WS/as_attendance/views/student_form.slim",
+		"/Users/wik/WS/as_attendance/views/new_student.slim",
+		"/Users/wik/WS/as_attendance/helpers/controllers_helpers.rb",
+		"/Users/wik/WS/as_attendance/views/full_student.slim",
+		"/Users/wik/WS/as_attendance/views/edit_student.slim",
+		"/Users/wik/WS/as_attendance/views/delete_student.slim",
+		"/Users/wik/WS/as_attendance/admin.rb",
+		"/Users/wik/WS/as_attendance/db/migrate/20130710161643_create_admins.rb",
+		"/Users/wik/WS/as_attendance/views/students_list",
+		"/Users/wik/WS/blog/views/new_entry.slim",
+		"/Users/wik/WS/blog/views/show_comments.slim",
+		"/Users/wik/WS/blog/db/migrate/20130709164457_create_comments.rb",
+		"/Users/wik/WS/blog/db/migrate/20130709052910_create_entries.rb",
+		"/Users/wik/WS/blog/views/comments_form.slim",
+		"/Users/wik/WS/blog/views/comments_form",
+		"/Users/wik/WS/blog/main.rb",
+		"/Users/wik/WS/blog/views/show_entry.slim",
+		"/Users/wik/WS/blog/views/edit_entry.slim",
+		"/Users/wik/WS/blog/views/entry_form.slim",
+		"/Users/wik/WS/blog/views/index.slim",
+		"/Users/wik/WS/blog/views/layout.slim",
+		"/Users/wik/WS/blog/entry.rb",
+		"/Users/wik/WS/blog/config.ru",
+		"/Users/wik/WS/blog/Rakefile",
+		"/Users/wik/WS/sinic/views/song_form.slim",
+		"/Users/wik/WS/sinic/views/new_song.slim",
+		"/Users/wik/WS/wblog/views/styles/application.scss",
+		"/Users/wik/WS/wblog/public/scripts/application.js",
+		"/Users/wik/WS/wblog/public/views/styles/application.scss",
+		"/Users/wik/WS/wblog/public/styles/application.scss",
+		"/Users/wik/WS/wblog/public/scripts/application.scss",
+		"/Users/wik/WS/sinic/views/layout.slim",
+		"/Users/wik/WS/sinic/main.rb",
+		"/Users/wik/WS/sinic/views/login.slim",
+		"/Users/wik/WS/sinic/views/edit_song.slim",
+		"/Users/wik/WS/sinic/views/show_song.slim",
+		"/Users/wik/WS/sinic/views/songs.slim",
+		"/Users/wik/WS/sinic/song.rb",
+		"/Users/wik/WS/sinic/views/nav.slim",
+		"/Users/wik/WS/sinic/views/styles.scss",
+		"/Users/wik/WS/sinic/config.rb",
+		"/Users/wik/WS/sinic/sinic_helpers.rb",
+		"/Users/wik/WS/sinic/sinic_helpers",
+		"/Users/wik/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/wik/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/wik/WS/sinic/views/home.slim",
+		"/Users/wik/WS/sinic/views/about.slim",
+		"/Users/wik/WS/sinic/views/not_found.slim",
+		"/Users/wik/WS/sinic/views/contact.slim",
+		"/usr/local/var/www/in.html",
+		"/usr/local/var/www/js/bootact.js",
+		"/Users/wik/WS/practice.rb",
+		"/Users/wik/WS/sina/main.rb",
+		"/Users/wik/WS/sina/rps.rb",
+		"/private/etc/paths",
+		"/Users/wik/WS/sina/song.rb",
+		"/Users/wik/.bashrc",
+		"/Users/wik/ipython3",
+		"/Users/wik/WS/sina/views/login.slim",
+		"/Users/wik/WS/sina/views/edit_song.slim",
+		"/Users/wik/WS/sina/views/new_song.slim",
+		"/Users/wik/WS/sina/views/song_form.slim",
+		"/Users/wik/WS/sina/views/show_song.slim",
+		"/Users/wik/WS/sina/views/songs.slim",
+		"/Users/wik/WS/sina/views/nav.slim",
+		"/Users/wik/WS/sina/views/styles.scss",
+		"/Users/wik/WS/sina/views/layout.slim",
+		"/Users/wik/WS/sina/views/not_found.slim",
+		"/Users/wik/WS/sina/views/styles.css",
+		"/Users/wik/WS/sina/views/not_found.erb",
+		"/Users/wik/WS/sina/views/home.erb",
+		"/Users/wik/WS/sina/views/home.slim",
+		"/Users/wik/WS/sina/views/about.slim",
+		"/Users/wik/WS/sina/views/contact.erb",
+		"/Users/wik/WS/sina/views/contact.slim",
+		"/Users/wik/WS/sina/views/show.erb",
+		"/Users/wik/WS/sina/layout.slim",
+		"/Users/wik/WS/sina/views/layout.erb",
+		"/Users/wik/WS/sina/public/css/style.css",
+		"/Users/wik/WS/sina/views/home.rb",
+		"/Users/wik/WS/PCP.c",
+		"/Users/wik/WS/document_test.rb",
+		"/Users/wik/WS/spec/document_spec.rb",
+		"/Users/wik/WS/.gitignore",
+		"/Users/wik/WS/document_spec.rb",
+		"/Users/wik/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"logger",
+			"]\"\n",
+			"TD"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "new_student.slim",
+					"settings":
+					{
+						"buffer_size": 363,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								320,
+								320
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ruby-slim.tmbundle/Syntaxes/Ruby Slim.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "student_form.slim",
+					"settings":
+					{
+						"buffer_size": 4113,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4041,
+								4041
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ruby-slim.tmbundle/Syntaxes/Ruby Slim.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 726.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"m",
+				"main.rb"
+			],
+			[
+				"sf",
+				"views/student/student_form.slim"
+			],
+			[
+				"",
+				"views/student/new_student.slim"
+			],
+			[
+				"n",
+				"views/student/new_student.slim"
+			],
+			[
+				"f",
+				"views/student/full_student.slim"
+			],
+			[
+				"stu",
+				"views/student/student_form.slim"
+			],
+			[
+				"att",
+				"views/attendance/show_attendances.slim"
+			],
+			[
+				"atte",
+				"public/js/attendance.js"
+			],
+			[
+				"atten",
+				"views/attendance/show_attendances.slim"
+			],
+			[
+				"layo",
+				"views/layout.slim"
+			],
+			[
+				"s",
+				"public/js/students_list.js"
+			],
+			[
+				"l",
+				"views/layout.slim"
+			],
+			[
+				"v",
+				"helpers/views_helpers.rb"
+			],
+			[
+				"en",
+				"views/entry_form.slim"
+			],
+			[
+				"st",
+				"views/styles.scss"
+			],
+			[
+				"nav",
+				"views/nav.slim"
+			],
+			[
+				"sty",
+				"views/styles.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 213.0,
+	"status_bar_visible": true
+}
