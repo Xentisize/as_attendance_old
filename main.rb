@@ -1,13 +1,13 @@
 require 'sinatra/base'
-require 'sinatra/reloader' if development?
+#require 'sinatra/reloader' if development?
 require 'sinatra/json'
 #require 'sqlite3'
 require 'sass'
 require 'slim'
 require 'sinatra/flash'
 require 'uri'
-require 'pg' if production?
-require 'logger' if development?
+#require 'pg' if production?
+#require 'logger' if development?
 require './models/admin'
 require './models/student'
 require './models/student_attendance'
@@ -25,6 +25,7 @@ class AsAttendance < Sinatra::Base
 
 
   configure :development do
+    require 'sinatra/reloader'
     register Sinatra::ActiveRecordExtension
     register Sinatra::Reloader
     register Sinatra::Flash
@@ -40,6 +41,7 @@ class AsAttendance < Sinatra::Base
   end
 
   configure :production do
+    require 'pg'
     register Sinatra::ActiveRecordExtension
     register Sinatra::Flash
     db = URI.parse(ENV['DATABASE_URL'] || 'postgres://localhost/mydb')
