@@ -6,3 +6,4 @@ gem "sinatra-contrib"
 gem "sass"
 gem "thin"
 gem "pg", :group => :production
+gem "sinatra-activerecord"
