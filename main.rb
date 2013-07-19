@@ -28,6 +28,7 @@ class AsAttendance < Sinatra::Base
     register Sinatra::Reloader
     register Sinatra::Flash
     require 'sqlite3'
+    set :database, "sqlite3:///db/attendance.db"
     set :method_override => true
     enable :logging
     enable :sessions

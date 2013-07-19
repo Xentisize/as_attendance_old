@@ -1,7 +1,7 @@
 require 'sinatra'
 require 'sinatra/activerecord'
 
-set :database, "sqlite3:///db/attendance.db"
+
 
 class Admin < ActiveRecord::Base
   ### Admin is the class monitoring students' information and attendance.
