@@ -59,7 +59,7 @@
 			"file": "/Users/wik/WS/as_attendance/main.rb",
 			"settings":
 			{
-				"buffer_size": 5999,
+				"buffer_size": 6042,
 				"line_ending": "Unix"
 			}
 		},
@@ -388,15 +388,15 @@
 					"file": "/Users/wik/WS/as_attendance/main.rb",
 					"settings":
 					{
-						"buffer_size": 5999,
+						"buffer_size": 6042,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1865,
-								1865
+								1217,
+								1217
 							]
 						],
 						"settings":
@@ -404,7 +404,7 @@
 							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1005.0,
+						"translation.y": 687.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
