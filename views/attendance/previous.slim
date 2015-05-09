@@ -1,0 +1,17 @@
+script src="/js/previous_attend.js"
+
+table class="table table-striped"
+	thead
+		tr 
+			th Student Name
+			th Number of Attendances
+			th Details of Attendances
+	tbody
+		- @students.each do |student|
+			tr 
+				td <a href="#{student.id}/info">#{forming_english_name(student)}</a>
+				td <span class="badge badge-info attend_number">#{previous_attendance_number(student, @start_criteria, @end_criteria)}</span>
+				td
+					- previous_attendance(student, @start_criteria, @end_criteria).each do |attendance|
+						span class="label label-success attend_dates" == attendance.arrival.strftime("%Y-%m-%d")
+

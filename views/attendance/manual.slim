@@ -1,0 +1,45 @@
+hgroup
+	h1 Manual Attendance
+	h2 = @student.english_name
+
+form action="/attendances/manual/#{@student.id}" method="post"
+	/ input type="hidden" name="_method" value="put"
+
+	label for="arrival_date" Arrival Date
+	input id="arrival_date" name="attendance[arrival_date]" type="date" placeholder="2014-01-01"
+	br
+	
+	label for="arrival_time" Arrival Time
+	input id="arrival_time" name="attendance[arrival_time]" type="time" placeholder="24:00"
+	br
+
+	label for="leave_time" Leave Time
+	input id="leave_time" name="attendance[leave_time]" type="time"
+	br
+
+	input type="submit" value="Mark it"
+
+
+
+
+
+
+
+/ # views/posts/edit.erb
+/ <h1>Edit Post</h1>
+/ <form action="/posts/<%= @post.id %>" method="post">
+/   <input type="hidden" name="_method" value="put" /> 
+ 
+/   <label for="post_title">Title:</label><br />
+/   <input id="post_title" name="post[title]" type="text" value="<%= @post.title %>" />
+/   <br />
+ 
+/   <label for="post_body">Body:</label><br />
+/   <textarea id="post_body" name="post[body]" rows="5"><%= @post.body %></textarea>
+/   <br />
+ 
+/   <input type="submit" value="Edit Post" />
+/ </form>   
+
+
+script src="/js/attendance.js"

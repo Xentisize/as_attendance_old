@@ -1,29 +1,39 @@
+- if flash[:notice]
+  == show_notice
+- elsif flash[:warning]
+  == show_warning
+
+
 script src="/js/jquery-1.10.2.js"
 script src="/js/student.js"
 div class="container"
   p class="text-right" style="margin-right: 10px;" <a href="/students/new">Entering new record</a>
-  div class="row"
-    div class="span3"
+  div class="row checkout_list"
+    div class="span8"
+      == slim :"student/today_attendance"
+
+  div class="span3"
     form class="form-search pull-right" id="student_search" style="margin-right: 10px;"
       input#students_name_filter type="text" class="input-medium query" placeholder="Type to search"
   table#students_list_table class="table table-striped table-bordered"
+    link href="/css/full_student.css" rel="stylesheet"
     caption <h3>List of students</h3>
     thead
       tr
         th Student ID
         th English Name
         th Chinese Name
-        th Self Tel.
-        th Parents Tel.
-        th E-mail
+        th I'm IN
+        th Manual Attendance
         th More Info.
+        th Chart
     tbody
       - @students.each do |student|
         tr
           td #{student.student_id}
           td == forming_english_name(student)
           td #{student.chinese_name}
-          td #{student.self_tel}
-          td #{student.parents_tel}
-          td #{student.email}
+          td <a href="#" class="manual-in #{student.id}"><i class="icon-time text-center"></i></a>
+          td <a href="/attendances/manual/#{student.id}"><i class="icon-tag text-center"></i></a>
           td <a href="#{student.id}/info"><small> >>> </small></a>
+          td <a class="open-chart #{student.id}" href="/students/at_json/#{student.id}"><i class="icon-align-left"></i></a>

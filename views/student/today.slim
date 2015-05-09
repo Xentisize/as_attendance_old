@@ -1,0 +1,11 @@
+link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'
+
+h1 class="attend-header text-center" == @title
+div class="row checkout_list"
+  div class="span6"
+	  - if @today_attendance
+	    - @today_attendance.each do |attendance|
+	      div class="well today-attended text-center"
+	      	- if attendance.leave == nil            	
+	          == "#{add_checkout_link(attendance)}"
+	        == "<a href='/students/#{attendance.student.id}/info'><span class='attend_name'>#{attendance.student.english_name}</span></a>"

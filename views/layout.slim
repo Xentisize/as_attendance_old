@@ -12,6 +12,7 @@ html
     /script src="/js/attendance.js"
     link rel="stylesheet" href="/css/bootstrap.css"
     link rel="stylesheet" href="/css/daterangepicker.css"
+    link rel="stylesheet" href="/css/app.css"
     meta charset="utf-8"
   body
     div class="row"
@@ -21,6 +22,8 @@ html
         ul class="nav nav-pills"
           li <a href="/" class="active"><i class="icon-home"></i>  Home</a>
           li <a href="/students/show" >Students</a>
+          li <a href="/students/today">Today Attendance</a>
+          li <a href="/students/previous">Previous Month</a>
           - if session[:admin]
               p class="text-right" <small> You have logged in as Admin <a href="/admin/logout"><span class="label">Logout</span></a></small>
           - else

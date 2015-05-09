@@ -1,0 +1,29 @@
+a.checkout_link:hover {
+	text-decoration: none;
+	cursor: hand;
+}
+
+div.uncheckout-list {
+	width: 140px;
+	float: left;
+	margin-left: 5px;
+}
+
+div.today-attended {
+	width: 90px;
+	float: left;
+	margin-left: 15px;
+	margin-top: 5px;
+}
+
+div.today-attended span.attend_name {
+	margin-left: 10px;
+}
+
+span.attend_name {
+	color: #9292d6;
+}
+
+h1.attend-header {
+	font-family: 'Montserrat', sans-serif;
+}

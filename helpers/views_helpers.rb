@@ -97,6 +97,33 @@ module ViewsHelpers
     selection_options = selections.collect {|option| "<option id='#{option}' class='input-small'>#{option}</option>" }.join
     "<select class='input-small'> #{selection_options} </select>"
   end
+
+  def checkout?(attendance)
+    if attendance.arrival && attendance.leave == nil
+      true
+    end
+  end
+
+
+  def add_checkout_button(attendance)
+    if checkout?(attendance)
+      button = "<p class='text-center'><button class='btn btn-primary checkout #{attendance.id}'>Checkout</button></p>"
+    end
+  end
+
+  def add_checkout_link(attendance)
+    if checkout?(attendance)
+      link = "<a class='checkout_link #{attendance.id}'><i class='icon-off'></i></button></a>"
+    end
+  end
+
+  def previous_attendance(student, beginning, ending)
+    previous_attendance = student.student_attendances.where("arrival > ? and leave < ?", beginning, ending)
+  end
+
+  def previous_attendance_number(student, beginning, ending)
+    previous_attendance(student, beginning, ending).size
+  end
 end
 
 

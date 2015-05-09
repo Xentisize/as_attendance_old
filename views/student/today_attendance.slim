@@ -1,0 +1,7 @@
+div class="row checkout_list"
+  div class="span6"
+    - if @today_attendance
+        - @today_attendance.each do |attendance|
+          - if attendance.leave == nil
+            div class="well uncheckout-list"
+              == "#{add_checkout_link(attendance)} <span style='margin-left: 10px' class='attend_name'>#{attendance.student.english_name}" + ' ' + "#{attendance.student.last_name}</span>"

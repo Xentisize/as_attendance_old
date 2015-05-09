@@ -1,3 +1,7 @@
+- if flash[:notice]
+  == show_notice
+- elsif flash[:warning]
+  == show_warning
 
 form class="form-horizontal pull-right"
   fieldset
@@ -20,7 +24,7 @@ table class="table table-striped table-bordered" id="attendance-table" style="te
       th Arrival
       th Leave
       th Duration
-      th Add Remark
+      th Checkout
       th
     tbody
       - if @attendances
@@ -30,9 +34,9 @@ table class="table table-striped table-bordered" id="attendance-table" style="te
             td #{attend_time(attendance.arrival)}
             td class="lablelize" #{attend_time(attendance.leave)}
             td #{attend_duration(attendance)}
-            td <p class="text-center"><a href="#remark" role="button" data-toggle="modal"><i class="icon-pencil"></i></a></p>
+            td class="text-center" == "#{add_checkout_button(attendance)}"
             td <p class="text-center"><i id="student_#{attendance.student_id}_attendance_#{attendance.id}" class="icon-remove"></i></p>
-            == create_modal(attendance)
+           
 
 
 

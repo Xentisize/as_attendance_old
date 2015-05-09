@@ -88,3 +88,31 @@ $(document).ready(function()
 
 // Click action on the modal of remarks for attendances (-> in views_helpers.rb)
 
+
+// add manual checkout function
+$(document).ready(function() {
+  $(".checkout").click(function(event) {
+    var attendance_id = $(this).attr('class').split(' ')[3];
+    var checkout_url = "/students/checkout/" + attendance_id;
+    $.ajax({
+      url: checkout_url,
+      type: "GET",
+      method: "GET",
+      success: function() {
+        location.reload();
+      }
+    });
+  });
+});
+
+$(document).ready(function() {
+  setInterval(function() {
+    $('.alert').fadeOut('slow');
+  }, 5000);
+});
+
+$(document).ready(function() {
+  $("div.flash.notice.alert").fadeOut("slow");
+});
+
+
